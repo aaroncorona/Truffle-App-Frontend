@@ -1,4 +1,6 @@
-# Hi
+# Fans
+
+This is the front-end source code that powers www.truffleteddy.com.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
