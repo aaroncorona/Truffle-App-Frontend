@@ -15,7 +15,7 @@ export class FansService {
 
   // Use GET API to return JSON
   getData(){
-    let url = 'http://localhost:8080/users/json';
+    let url = 'http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/json';
     return this.h.get(url);
   }
 }
