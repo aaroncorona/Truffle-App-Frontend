@@ -8,15 +8,19 @@ import {FansService} from "./fans.service";
 
 export class FansComponent {
   service: FansService;
-  jsonResult: any;
+  jsonGetResult: any;
+  jsonPushResult: any;
   names: any;
 
   constructor(service: FansService) {
     this.service = service
 
-    // Save results
-    this.service.getData().subscribe(data => {console.log(data);})
-    this.service.getData().subscribe(data => {this.jsonResult = data;})
+    // Get List of Fans (json to be parsed in HTML)
+    this.service.getFanList().subscribe(data => {console.log(data);})
+    this.service.getFanList().subscribe(data => {this.jsonGetResult = data;})
+
+    // Post user
+    this.service.postFan("another test...");
   }
 }
 

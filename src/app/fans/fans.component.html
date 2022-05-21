@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-<h1> LeBron's biggest Fans: </h1>
+<h1> Truffle's biggest Fans: </h1>
 <table>
   <thead>
   <tr>
-    <th>Mongo ID</th>
+    <th>ID</th>
     <th>Name</th>
     <th>Age</th>
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let item of jsonResult">
+  <tr *ngFor="let item of jsonGetResult">
     <td>{{item.id}}</td>
     <td>{{item.name}}</td>
     <td>{{item.age}}</td>
   </tr>
   </tbody>
 </table>
-
+<br>
 <div>
   <img  src="assets/images/pups.png" width="450" height="500" alt="can't find img"/>
 </div>
+
+<h2> Become a Fan of Truffle! </h2>
+
+
 
