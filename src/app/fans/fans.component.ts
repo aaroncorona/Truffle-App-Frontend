@@ -8,14 +8,18 @@ import {FansService} from "./fans.service";
 
 export class FansComponent {
   service: FansService;
-  jsonGetResult: any;
-  names: any;
+  jsonGetResult: any; // make public
+  nameBoxInput: string;
 
   constructor(service: FansService) {
     this.service = service
 
-    // Get List of Fans (json to be parsed in HTML)
+    // Get List of Fans (the json is to be parsed in the HTML)
     this.service.getFanList().subscribe(data => {this.jsonGetResult = data;})
+
+    // Capture text box
+    this.nameBoxInput = ((document.getElementById("t1") as HTMLInputElement).value);
+    console.log(this.nameBoxInput);
 
     // Post user
     this.service.postFan("another test...");
