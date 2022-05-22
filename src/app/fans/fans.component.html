@@ -18,13 +18,15 @@
 <h2> Become a Fan of Truffle! </h2>
 
 <form>
-  <label for="t1">Name:</label><br>
-  <input type="text" id="t1"><br>
-  <label for="t2">Age (optional):</label><br>
-  <input type="text" id="t2"><br><br>
-  <input type="submit" value="Submit">
+  <p>Name:
+    <input [(ngModel)] = "nameBoxInput" #iname = "ngModel" (change)="logName(nameBoxInput)"
+           id="t1" type="text" >
+  </p>
+  <p>Click to confirm:
+  <input type="button" value="Submit"
+         [(ngModel)] = "nameBoxInput" #iname = "ngModel" (click)="post(nameBoxInput)"
+  ></p>
 </form>
-
 
 <h2> Truffle's Biggest Fans </h2>
 <div>
@@ -48,7 +50,7 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let item of jsonGetResult">
+  <tr  *ngFor="let item of jsonGetResult">
     <td>{{item.id}}</td>
     <td>{{item.name}}</td>
     <td>{{item.age}}</td>

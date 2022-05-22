@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {FansService} from "./fans.service";
 
 @Component({
@@ -10,19 +10,37 @@ export class FansComponent {
   service: FansService;
   jsonGetResult: any; // make public
   nameBoxInput: string;
+  ageBoxInput: number;
 
   constructor(service: FansService) {
     this.service = service
+    this.nameBoxInput = "";
+    this.ageBoxInput = Math.floor(Math.random() * (99 - 1 + 1));
+  }
 
-    // Get List of Fans (the json is to be parsed in the HTML)
-    this.service.getFanList().subscribe(data => {this.jsonGetResult = data;})
+  // Get List of Fans (the json is to be parsed in the HTML)
+  getFans(){
+    this.service.getFanList()
+      .subscribe(data => {this.jsonGetResult = data;})
+  }
 
-    // Capture text box
-    this.nameBoxInput = ((document.getElementById("t1") as HTMLInputElement).value);
-    console.log(this.nameBoxInput);
+  // Return name box results (for ad hoc checks)
+  logName(nameBoxInput: string){
+    console.log(nameBoxInput);
+    return nameBoxInput;
+  }
 
-    // Post user
-    this.service.postFan("another test...");
+  // Post new fan using the input field
+  post(nameBoxInput: string){
+    if(this.nameBoxInput != ""){
+      this.service.postFan(this.nameBoxInput, this.ageBoxInput);
+      this.getFans(); // instantly refresh fan list
+    }
+  }
+
+  ngOnInit(): void {
+    // Get all fans for the HTML on instantiation
+    this.getFans();
   }
 }
 
