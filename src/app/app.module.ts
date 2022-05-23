@@ -7,11 +7,13 @@ import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from "@angular/forms";
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from "./app-routing.module";
+import { BioComponent } from './bio/bio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FansComponent
+    FansComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
