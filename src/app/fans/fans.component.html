@@ -5,7 +5,7 @@
 
 <h2> Your Favorite Cavapoo </h2>
 <div>
-  <img  src="assets/images/teddy.png" width="400" height="450" alt="can't find img"/>
+  <img  src="assets/images/teddy.png" width="300" height="350" alt="can't find img"/>
 </div>
 <br>
 
@@ -19,18 +19,21 @@
 
 <form>
   <p>Name:
-    <input [(ngModel)] = "nameBoxInput" #iname = "ngModel" (change)="logName(nameBoxInput)"
+    <input minlength="2" required [(ngModel)] = "nameBoxInput" #iname = "ngModel" (change)="logName(nameBoxInput)"
            id="t1" type="text" >
   </p>
+  <div *ngIf="!iname.valid && iname.touched">
+    <p style="color:red;"><b> Name is invalid </b></p>
+  </div>
   <p>Click to confirm:
   <input type="button" value="Submit"
-         [(ngModel)] = "nameBoxInput" #iname = "ngModel" (click)="post(nameBoxInput)"
+         [(ngModel)] = "nameBoxInput" #isubmit = "ngModel" (click)="post(nameBoxInput)"
   ></p>
 </form>
-
-<h2> Truffle's Biggest Fans </h2>
+<br>
+<h2> Current Fan List </h2>
 <div>
-  <img  src="assets/images/pups.png" width="300" height="350" alt="can't find img"/>
+  <img  src="assets/images/pups.png" width="200" height="250" alt="can't find img"/>
 </div>
 <table>
   <style>

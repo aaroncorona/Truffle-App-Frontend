@@ -5,6 +5,8 @@ import { FansComponent } from './fans/fans.component';
 import {FansService} from "./fans/fans.service";
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from "@angular/forms";
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -15,6 +17,9 @@ import {FormsModule} from "@angular/forms";
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule,
   ],
   providers: [
     FansService

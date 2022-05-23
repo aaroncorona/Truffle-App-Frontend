@@ -40,7 +40,7 @@ export class FansComponent {
 
   ngOnInit(): void {
     // Get all fans for the HTML on instantiation
-    this.getFans();
+    // this.getFans();
   }
 }
 
