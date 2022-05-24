@@ -1,4 +1,30 @@
+h1 {
+  /*text-align: center;*/
+  text-transform: uppercase;
+  color: darkgreen;
+  padding: 10px;
+  padding-left: 200px;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  padding-left: 10px;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  border: 3px solid #555;
+}
 
 h2 {
   text-align: center;
@@ -6,6 +32,64 @@ h2 {
   color: darkolivegreen;
 }
 
+#info {
+  border: 1px solid gray;
+  align-self: left;
+  padding: 8px;
+  width: 945px;
+  background: #F5F0EF;
+}
+
+p {
+  text-indent: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
 
 
+#time {
+  display: flex;
+  justify-content: left;
+}
 
+/* Timeline Container */
+.timeline {
+  margin: 10px auto;
+  padding: 10px;
+  padding-left: 300px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 10px 20px;
+  padding: 10px;
+  background: lightgrey;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+
+/* Title of the card */
+.title {
+  color: darkgreen;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid darkgreen;
+}
