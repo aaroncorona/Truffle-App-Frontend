@@ -8,12 +8,14 @@ import {FormsModule} from "@angular/forms";
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from "./app-routing.module";
 import { BioComponent } from './bio/bio.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FansComponent,
-    BioComponent
+    BioComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

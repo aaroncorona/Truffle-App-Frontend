@@ -4,6 +4,7 @@ import {FansService} from "./fans.service";
 @Component({
   selector: 'fans',
   templateUrl: './fans.component.html',
+  styleUrls: ['./fans.component.css']
 })
 
 export class FansComponent {
