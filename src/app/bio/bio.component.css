@@ -35,7 +35,7 @@ h2 {
 #info {
   border: 1px solid gray;
   align-self: left;
-  padding: 8px;
+  padding: 10px;
   width: 945px;
   background: #F5F0EF;
 }
@@ -55,7 +55,7 @@ p {
 /* Timeline Container */
 .timeline {
   margin: 10px auto;
-  padding: 10px;
+  padding: 30px;
   padding-left: 300px;
 }
 
