@@ -10,6 +10,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { BioComponent } from './bio/bio.component';
 import { NavComponent } from './nav/nav.component';
 import { SocialComponent } from './social/social.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SocialComponent } from './social/social.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
+    FlexLayoutModule
   ],
   providers: [
     FansService
