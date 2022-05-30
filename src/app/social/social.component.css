@@ -1,4 +1,8 @@
 
+* {
+  margin-left:10px;
+}
+
 /* Header */
 h2 {
   font-family:sans-serif;
@@ -10,20 +14,17 @@ h2 {
   grid-gap: 20px;
   font-size: 30px;
   margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left:25px;
+  margin-bottom: 20px;
   margin-right:55px;
   max-width: 95%;
 }
 
 /* Image */
 #img1 {
-  margin-left:10px;
   border: 2px solid lightgrey;
   width: 740px;
   height: 400px;
-  margin-left:20px;
-}
+}s
 
 /* Media settings */
 @media screen and (max-width:600px){
@@ -31,9 +32,8 @@ h2 {
     font-size: 20px;
   }
   #img1 {
-    margin-left:10px;
     border: 2px solid lightgrey;
-    width: 400px;
+    width: 350px;
     height: 200px;
   }
 }

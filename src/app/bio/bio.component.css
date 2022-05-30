@@ -223,7 +223,7 @@ h1:after,h1:before {
   background: lightgreen;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
   .Yearly-timeline .timeline{
     width: 100%;
     padding: 30px 0 0 30px;

@@ -1,3 +1,49 @@
-h2a {
-  padding-top: 40px;
+/* Header */
+* {
+  margin-left:10px;
+}
+
+h2 {
+  font-family:sans-serif;
+  font-weight:100;
+  font-weight: bold;
+  color: black;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 20px 0px;
+  grid-gap: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right:55px;
+  max-width: 95%;
+}
+
+form {
+  margin-bottom:30px;
+}
+
+h3 {
+  font-family:sans-serif;
+  font-weight:100;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 20px 0px;
+  grid-gap: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right:55px;
+  max-width: 95%;
+}
+
+img{
+  border-radius: 50%;
+  width: 210px;
+  height: 225px;
+}
+
+thead{
+  padding-top: 10px
 }
