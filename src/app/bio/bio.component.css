@@ -12,7 +12,7 @@ h1 {
   grid-template-rows: 20px 0px;
   grid-gap: 20px;
   margin-top: 40px;
-  margin-bottom:40px;
+  margin-bottom:35px;
   margin-left:25px;
   margin-right:55px;
   max-width: 95%;
@@ -140,7 +140,7 @@ h1:after,h1:before {
 
 /*Timeline Images: set different border colors and sizes for each*/
 .timeline img {
-  width: 230px;
+  width: 220px;
   height: 220px;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -150,21 +150,17 @@ h1:after,h1:before {
 }
 .timeline #img2 {
   border: 4px solid hotpink;
-  width: 250px;
-  height: 260px;
+  height: 230px;
 }
 .timeline #img3 {
   border: 4px solid lightblue;
-  width: 210px;
-  height: 220px;
+  height: 230px;
 }
 .timeline #img4 {
   border: 4px solid #ffd670;
 }
 .timeline #img5 {
   border: 4px solid lightgreen;
-  width: 210px;
-  height: 220px;
 }
 
 .Yearly-timeline .timeline-content:hover{ text-decoration: none; }
@@ -227,7 +223,7 @@ h1:after,h1:before {
   background: lightgreen;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:700px){
   .Yearly-timeline .timeline{
     width: 100%;
     padding: 30px 0 0 30px;
