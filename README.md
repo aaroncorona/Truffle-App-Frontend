@@ -1,3 +1,5 @@
+![TruffleTeddy com](https://user-images.githubusercontent.com/31792170/171095567-fa4e321e-96d7-4670-bf91-468af87bcf6c.png)
+
 # Truffle App Frontend
 
 This is the front-end source code that powers www.truffleteddy.com. The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
