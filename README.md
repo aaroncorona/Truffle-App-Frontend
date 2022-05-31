@@ -1,4 +1,4 @@
-# Fans
+# Truffle App Frontend
 
 This is the front-end source code that powers www.truffleteddy.com. The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
 
