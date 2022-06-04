@@ -4,6 +4,8 @@
 
 This is the front-end source code that powers www.truffleteddy.com. The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
 
+See the repo for the backend APIs [here](https://github.com/aaroncorona/Truffle-App-Backend).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
