@@ -1,5 +1,5 @@
 
-<img width="400" alt="error" src="https://image.shutterstock.com/image-photo/collage-different-dogs-on-white-260nw-1724568655.jpg">
+<img width="400" alt="error" src="https://previews.123rf.com/images/muchmaniavector/muchmaniavector1803/muchmaniavector180300065/97691841-group-of-dog-breeds-holding-bone-front-view-pet-background-banner.jpg">
 
 # Truffle App Frontend
 
