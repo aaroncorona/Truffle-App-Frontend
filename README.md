@@ -5,7 +5,7 @@
 
 Truffle Teddy is a full-stack web application to track the life of Truffle and register new fans.
 
-This repo contains the front-end source code that powers <a href = 'http://truffleteddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">www.truffleteddy.com</a>. 
+This repo contains the front-end source code that powers <a href = 'http://truffleteddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">truffleteddy.com</a>. 
 
 The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
 
