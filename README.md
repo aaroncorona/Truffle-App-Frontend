@@ -2,7 +2,9 @@
 
 # Truffle App Frontend
 
-This is the front-end source code that powers www.truffleteddy.com. The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
+Truffle Teddy is a full-stack web application to track the life of Truffle and register new fans.
+
+This repo contains the front-end source code that powers www.truffleteddy.com. The files are hosted on AWS S3 and the domain is powered by AWS Route 53.
 
 See the repo for the backend APIs [here](https://github.com/aaroncorona/Truffle-App-Backend).
 
