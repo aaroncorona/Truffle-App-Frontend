@@ -1,7 +1,7 @@
 
 <img width="400" alt="error" src="https://previews.123rf.com/images/muchmaniavector/muchmaniavector1803/muchmaniavector180300065/97691841-group-of-dog-breeds-holding-bone-front-view-pet-background-banner.jpg">
 
-# Truffle App 
+# Truffle Web App 
 
 TruffleTeddy.com is a full-stack web application to track the life of Truffle and register new fans.
 
