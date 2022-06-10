@@ -18,7 +18,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 
 ## 🌐 App Features
-1. Content that illustrates Truffle's life
+1. A timeline-style biography of Truffle's life
 2. CSS dynamic resizing using flexboxes and media queries
 3. Signup page to permanently log your name on the list of fans
 
