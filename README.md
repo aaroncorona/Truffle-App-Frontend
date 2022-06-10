@@ -10,6 +10,29 @@
 TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">truffleteddy.com</a>)
 is a full-stack web application built to track the life of Truffle and signup new fans.
 
+## Table of Contents
+* [Features & APIs](https://github.com/aaroncorona/Truffle-App-Frontend#features)
+* [Next Release](https://github.com/aaroncorona/Truffle-App-Frontend#Next-Release---Version-2.0-Features)
+* [Tech Stack](https://github.com/aaroncorona/Truffle-App-Frontend#tech-stack---front-end)
+
+
+## App Features
+1. Content that illustrates Truffle's life
+2. CSS dynamic resizing using flexboxes and media queries
+3. Signup page to permanently log your name on the list of fans
+
+
+## APIs Created
+* [Get API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans)
+* [Post API Endpoint]([url](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup))
+
+
+## Next Release - Version 2.0 Features
+1. Log more detailed fan information (e.g. signup with email address)
+2. More content like videos and a page for Truffle's little sister
+3. Open to suggestions!
+
+
 ## Tech Stack - Front End
 * TypeScript
 * CSS
@@ -17,6 +40,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * Angular CLI (13.3.5)
 * AWS S3 
 * AWS Route 53
+
 
 ## Tech Stack - Back End
 * Java
