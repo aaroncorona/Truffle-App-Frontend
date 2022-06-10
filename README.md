@@ -12,8 +12,8 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## Table of Contents
 * [Features & APIs](#app-features)
-* [Next Release](#next-release---version-20-features)
 * [Tech Stack](#tech-stack---front-end)
+* [Next Release](#next-release---version-20-features)
 
 
 ## App Features
@@ -26,12 +26,6 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * [Get API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans)
 * [Post API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup)
 * Note: Repo for the backend APIs can be found [here](https://github.com/aaroncorona/Truffle-App-Backend).
-
-
-## Next Release - Version 2.0 Features
-1. Log more detailed fan information (e.g. signup with email address)
-2. More content like videos and a page for Truffle's little sister
-3. Open to suggestions!
 
 
 ## Tech Stack - Front End
@@ -50,4 +44,12 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * Thymeleaf
 * PostgreSQL
 * AWS EBS
+
+
+## Next Release - Version 2.0 Features
+1. Log more detailed fan information (e.g. signup with email address)
+2. More content like videos and a page for Truffle's little sister
+3. Open to suggestions!
+
+
 
