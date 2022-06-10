@@ -11,9 +11,9 @@ TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.
 is a full-stack web application built to track the life of Truffle and signup new fans.
 
 ## Table of Contents
-* [Features & APIs](https://github.com/aaroncorona/Truffle-App-Frontend#features)
-* [Next Release](https://github.com/aaroncorona/Truffle-App-Frontend#Next-Release---Version-2.0-Features)
-* [Tech Stack](https://github.com/aaroncorona/Truffle-App-Frontend#tech-stack---front-end)
+* [Features & APIs](#features)
+* [Next Release](#Next-Release---Version-2.0-Features)
+* [Tech Stack](#tech-stack---front-end)
 
 
 ## App Features
@@ -24,7 +24,8 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## APIs Created
 * [Get API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans)
-* [Post API Endpoint]([url](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup))
+* [Post API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup)
+* Note: Repo for the backend APIs can be found [here](https://github.com/aaroncorona/Truffle-App-Backend).
 
 
 ## Next Release - Version 2.0 Features
@@ -50,4 +51,3 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * PostgreSQL
 * AWS EBS
 
-Note: This repo contains the front-end source code only. See the repo for the backend APIs [here](https://github.com/aaroncorona/Truffle-App-Backend).
