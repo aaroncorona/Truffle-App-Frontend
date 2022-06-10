@@ -11,9 +11,9 @@ TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.
 is a full-stack web application built to track the life of Truffle and signup new fans.
 
 ## 📖 Table of Contents
-* [Features & APIs](#app-features)
-* [Tech Stack](#tech-stack---front-end)
-* [Next Release](#next-release---version-20-features)
+* [Features & APIs](#-app-features)
+* [Tech Stack](#-tech-stack---front-end)
+* [Next Release](#-next-release---version-20-features)
 
 
 ## 🌐 App Features
