@@ -13,7 +13,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 ## 📖 Table of Contents
 * [Features & APIs](#-app-features)
 * [Tech Stack](#%EF%B8%8F-tech-stack---front-end)
-* [Usage](#usage)
+* [Usage](#-usage)
 * [Next Release](#-next-release---version-20-features)
 
 
