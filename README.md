@@ -12,7 +12,8 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## 📖 Table of Contents
 * [Features & APIs](#-app-features)
-* [Tech Stack](#-tech-stack---front-end)
+* [Tech Stack](#%EF%B8%8F-tech-stack---front-end)
+* [Usage](#usage)
 * [Next Release](#-next-release---version-20-features)
 
 
@@ -45,11 +46,16 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * PostgreSQL
 * AWS EBS
 
+## 🚀 Usage
+1. Clone this repo locally and run `npm install` to install all the dependencies.
+2. Run `npm start` to launch the application. It should be running on localhost:4200
+3. Run `ng generate component component-name` to generate a new component if desired. 
+4. To get more help on the Angular CLI use `ng help`.
 
 ## 🚧 Next Release - Version 2.0 Features
-1. Log more detailed fan information (e.g. signup with email address)
-2. More content like videos and a page for Truffle's little sister
-3. Open to suggestions!
+* Log more detailed fan information (e.g. signup with email address)
+* More content like videos and a page for Truffle's little sister
+* Open to suggestions!
 
 
 
