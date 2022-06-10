@@ -1,7 +1,11 @@
 
-<img width="400" alt="error" src="https://previews.123rf.com/images/muchmaniavector/muchmaniavector1803/muchmaniavector180300065/97691841-group-of-dog-breeds-holding-bone-front-view-pet-background-banner.jpg">
+# TruffleTeddy.com 
+<img width="400" alt="error" src="https://static.vecteezy.com/system/resources/previews/002/063/138/non_2x/cartoon-cute-dogs-with-big-bone-vector.jpg">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aaroncorona/Truffle-App-Frontend">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aaroncorona/Truffle-App-Frontend">
 
-# Truffle Web App 
+
+## Truffle Web App 
 
 TruffleTeddy.com is a full-stack web application to track the life of Truffle and register new fans.
 
