@@ -29,21 +29,21 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * Note: Repo for the backend APIs can be found [here](https://github.com/aaroncorona/Truffle-App-Backend).
 
 
-## 🖼️ Tech Stack - Front End
+## ☁️ Tech Stack
+![Screen Shot 2022-06-20 at 3 27 48 PM](https://user-images.githubusercontent.com/31792170/174684585-71e4b509-d8ff-44c4-afb7-82393e0fa343.png)
+
+### Full List:
+* Angular CLI (13.3.5)
 * TypeScript
 * CSS
 * HTML
-* Angular CLI (13.3.5)
-* AWS S3 
-* AWS Route 53
-
-
-## ☁️ Tech Stack - Back End
 * Java
 * Spring Boot
 * Spring Web
 * Thymeleaf
 * PostgreSQL
+* AWS S3 
+* AWS Route 53
 * AWS EBS
 
 ## 🚀 Usage
