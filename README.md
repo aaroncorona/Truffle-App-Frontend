@@ -12,7 +12,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## 📖 Table of Contents
 * [Features & APIs](#-app-features)
-* [Tech Stack](#%EF%B8%8F-tech-stack---front-end)
+* [Tech Stack](#%EF%B8%8F-tech-stack)
 * [Usage](#-usage)
 * [Next Release](#-next-release---version-20-features)
 
@@ -30,7 +30,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 
 ## ☁️ Tech Stack
-![Screen Shot 2022-06-20 at 3 27 48 PM](https://user-images.githubusercontent.com/31792170/174684585-71e4b509-d8ff-44c4-afb7-82393e0fa343.png)
+![Screen Shot 2022-06-20 at 3 34 08 PM](https://user-images.githubusercontent.com/31792170/174685010-9d7243f9-049b-48b9-969e-10257e185538.png)
 
 ### Full List:
 * Angular CLI (13.3.5)
