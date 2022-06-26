@@ -48,7 +48,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## 🚀 Usage
 1. Clone this repo locally and run `npm install` to install all the dependencies.
-2. Run `npm start` to launch the application. It should be running on localhost:4200
+2. Run `npm start` to launch the application. It should be running on localhost:4200.
 3. Run `ng generate component component-name` to generate a new component if desired. 
 4. To get more help on the Angular CLI use `ng help`.
 
