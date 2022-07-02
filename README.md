@@ -4,7 +4,6 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aaroncorona/Truffle-App-Frontend">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aaroncorona/Truffle-App-Frontend">
 
-
 ## 📜 Overview
 
 TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">truffleteddy.com</a>)
