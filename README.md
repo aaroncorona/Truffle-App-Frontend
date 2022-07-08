@@ -16,7 +16,6 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * [Next Release](#-next-release---version-20-features)
 
 
-
 ## 🌐 App Features
 1. A timeline-style biography of Truffle's life
 2. CSS dynamic resizing using flexboxes and media queries
