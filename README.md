@@ -60,4 +60,3 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * Open to suggestions!
 
 
-
