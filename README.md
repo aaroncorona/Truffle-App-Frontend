@@ -59,4 +59,3 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * More content like videos and a page for Truffle's little sister
 * Open to suggestions!
 
-
