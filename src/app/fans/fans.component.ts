@@ -16,6 +16,7 @@ export class FansComponent {
   constructor(service: FansService) {
     this.service = service
     this.nameBoxInput = "";
+    // Populate box with random age
     this.ageBoxInput = Math.floor(Math.random() * (99 - 1 + 1));
   }
 

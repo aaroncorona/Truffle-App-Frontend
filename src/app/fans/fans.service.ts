@@ -14,6 +14,7 @@ export class FansService {
   constructor(h: HttpClient) {
     this.h = h;
     this.url = 'http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/';
+    // this.url = 'http://localhost:8080/';
   }
 
   // Use GET API to return JSON
