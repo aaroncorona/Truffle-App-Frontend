@@ -24,7 +24,7 @@ export class FansService {
     return this.h.get(getUrl);
   }
 
-  // Use POST API to add a new record (Fan obj)
+  // Use POST API to add a new record (a Fan obj)
   // Example URL: https://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup?name=dad&age=99
   postFan(name: string, age=100){
     let postExt = 'fans/signup';
