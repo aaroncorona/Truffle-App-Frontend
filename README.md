@@ -22,7 +22,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 3. Signup page to permanently log your name on the list of fans and see real-time data
 
 ## 📸 Screenshots
-### _Form submit with real-time data from the backend:_ 
+### _Form submit with real-time data from the DB:_ 
 <img width="300" alt="Screen Shot 2022-07-22 at 6 30 54 PM" src="https://user-images.githubusercontent.com/31792170/180587277-ec13bb82-5f45-4966-9e0c-d3a3a4b9ce61.png">
 
 
