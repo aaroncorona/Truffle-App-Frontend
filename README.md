@@ -48,8 +48,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * CSS
 * HTML
 * Java
-* Spring Boot
-* Spring Web
+* Spring Boot & Spring Web
 * Thymeleaf
 * PostgreSQL
 * AWS S3 
@@ -66,4 +65,3 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * Log more detailed fan information (e.g. signup with email address)
 * More content like videos and a page for Truffle's little sister
 * Open to suggestions!
-
