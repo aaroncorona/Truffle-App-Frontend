@@ -7,7 +7,7 @@
 ## 📜 Overview
 
 TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">truffleteddy.com</a>)
-is a full-stack web application built with Angular to track the life of Truffle and signup new fans.
+is a full-stack web application built with Angular and Spring to track the life of Truffle and signup new fans.
 
 ## 📖 Table of Contents
 * [Features & APIs](#-app-features)
