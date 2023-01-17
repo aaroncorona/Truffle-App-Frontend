@@ -61,7 +61,3 @@ is a full-stack web application built with Angular and Spring to track the life 
 3. Run `ng generate component component-name` to generate a new component if desired. 
 4. To get more help on the Angular CLI use `ng help`.
 
-## 🚧 Next Release - Version 2.0 Features
-* Log more detailed fan information (e.g. signup with email address)
-* More content like videos and a page for Truffle's little sister
-* Open to suggestions!
